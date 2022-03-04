@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RookAteMySSD/Portfolio-Website.git"
+  },
+  "author": "Ronin Lombardino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RookAteMySSD/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/RookAteMySSD/Portfolio-Website#readme",
+  "dependencies": {
+    "firebase": "^9.6.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
