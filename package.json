@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "Deploy": "firebase deploy",
-    "build" : "console.log('temp')"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,18 @@
   },
   "homepage": "https://github.com/RookAteMySSD/Portfolio-Website#readme",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
     "firebase": "^9.6.7",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "webpack-cli": "^4.9.2"
   }
 }

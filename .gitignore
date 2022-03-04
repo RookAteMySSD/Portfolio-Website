@@ -1,3 +1,4 @@
 node_modules
 Firebase.jsx
 .env
+public/bundle.js
