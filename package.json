@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "Deploy": "firebase deploy",
-    "build" : "console.log(temp)"
+    "build" : "console.log('temp')"
   },
   "repository": {
     "type": "git",
