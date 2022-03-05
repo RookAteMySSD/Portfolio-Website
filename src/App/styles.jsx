@@ -3,7 +3,8 @@ import React from 'react'
 export const sectionBox = {
   border: '2px solid black',
   margin: '5px',
-  padding: '10px'
+  padding: '10px',
+  background: '#7EC8E3'
 }
 
 export const background = {
