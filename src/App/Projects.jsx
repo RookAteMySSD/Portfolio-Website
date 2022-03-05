@@ -7,6 +7,7 @@ export const Projects = () => {
     <div style={sectionBox}>
     <Project />
     <Project />
+    <Project />
     </div>
   )
 }
