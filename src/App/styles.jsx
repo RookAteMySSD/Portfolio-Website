@@ -10,5 +10,7 @@ export const sectionBox = {
 export const background = {
   background: 'linear-gradient(to right bottom, #050A30 0%, 10%, #000C66 20%, 35%, #0000FF 66%, #7EC8E3 100%)',
   margin: '0px',
-  padding: '3%'
+  padding: '15%',
+  paddingTop: '3%',
+  paddingBottom: '3%'
 }
