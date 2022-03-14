@@ -2,7 +2,7 @@ export const ProjectsData = [
   {
     name: 'Portfolio',
     description: 'This is the website you\'re on right now! This website is front-end and was made with user experience in mind to concisely and effectively show my projects, experience, and skill. It has a modular framework that makes adding and removing sections easy, as well as making it easy to change links by storing them centrally.',
-    tech: ['React', 'Firebase'],
+    tech: ['React', 'Firebase', 'HTML', 'CSS'],
     github: 'https://github.com/RookAteMySSD/Portfolio-Website'
   },
   {
