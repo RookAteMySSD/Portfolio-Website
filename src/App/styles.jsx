@@ -14,3 +14,11 @@ export const background = {
   paddingTop: '3%',
   paddingBottom: '3%'
 }
+
+export const icon = {
+  maxHeight: '16px',
+  maxWidth: '16px',
+  padding: '10px',
+  paddingTop: '0px',
+  paddingBottom: '0px'
+}
