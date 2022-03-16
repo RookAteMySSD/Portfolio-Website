@@ -5,3 +5,32 @@
   margin: 0px;
   background: linear-gradient(to right bottom, #050A30 0%, 10%, #000C66 20%, 35%, #0000FF 66%, #7EC8E3 100%);
 }
+
+.sectionBox {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  background: #7EC8E3;
+}
+
+.iconBox {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 0px;
+}
+
+.icon {
+  max-height: 20px;
+  max-width: 20px;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+.techBox{
+  border: 2px solid #000C66;
+  border-radius: 30% / 70%;
+  margin: 2px;
+  padding: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

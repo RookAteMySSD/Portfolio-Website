@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'
-import {sectionBox, techBox} from './styles.jsx'
+import './AppStyles.css'
 
 export const Project = ({project}) => {
   return (
-    <div style={sectionBox}>
-    <h4 style={sectionBox}>{project.name}</h4>
-    <div style={sectionBox}>{project.description}</div>
-    <div style={sectionBox}>{project.tech.map((tech) => <a style={techBox}>{tech}</a>)}</div>
+    <div className='sectionBox'>
+    <h4 className='sectionBox'>{project.name}</h4>
+    <div className='sectionBox'>{project.description}</div>
+    <div className='sectionBox'>{project.tech.map((tech) => <a className='techBox'>{tech}</a>)}</div>
     </div>
   )
 }
