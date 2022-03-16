@@ -5,7 +5,6 @@ export const sectionBox = {
   margin: '5px',
   padding: '10px',
   background: '#7EC8E3'
-
 }
 
 export const background = {
@@ -16,12 +15,17 @@ export const background = {
   paddingBottom: '3%'
 }
 
+export const iconBox = {
+  border: '2px solid black',
+  margin: '5px',
+  padding: '0px',
+}
+
 export const icon = {
-  maxHeight: '16px',
-  maxWidth: '16px',
-  padding: '10px',
-  paddingTop: '0px',
-  paddingBottom: '0px'
+  maxHeight: '20px',
+  maxWidth: '20px',
+  margin: '5px',
+  marginBottom: '0px'
 }
 
 export const techBox = {

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {sectionBox, icon} from './styles.jsx'
+import {sectionBox, iconBox, icon} from './styles.jsx'
 import {PersonalData} from '../PersonalData.js'
 
 export const AboutMe = () => {
@@ -7,7 +7,7 @@ export const AboutMe = () => {
     <div style={sectionBox}>
         {PersonalData.aboutMe}
       <div style={{'float': "right"}}>image here</div>
-      <div style={sectionBox}>
+      <div style={iconBox}>
         <img src='./IMG/GitHub.png' style={icon} onClick={() => {location.href=`${PersonalData.github}`}}></img>
         <img src='./IMG/LinkedIn.png' style={icon}
         onClick={() => {location.href=`${PersonalData.linkedin}`}}></img>
