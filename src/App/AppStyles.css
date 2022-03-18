@@ -34,9 +34,29 @@
   padding: 10px;
 }
 
-.projectTitle span:hover{
-  text-decoration: underline;
+.projectTitle a:link{
+  color: #050A30;
+  text-decoration: none;
+}
+
+.projectTitle a:visited{
+  color: #050A30;
+  text-decoration: none;
+}
+
+.projectTitle a:hover{
   color: #0000FF;
+  text-decoration: underline;
+}
+
+.projectTitle a:focus{
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+.projectTitle a:active{
+  color: white;
+  background-color: #000C66;
 }
 
 .techBox{
