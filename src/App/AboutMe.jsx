@@ -9,7 +9,7 @@ export const AboutMe = () => {
         <h3 style={{margin: '5px'}}>I'm Ronin</h3>
         <h4 style={{margin: '5px'}}>I am a software engineer and I build full-stack applications with a focus on good user experience and functionality</h4>
         <p style={{margin: '5px'}}>
-          I am passionate about creating software that is easy to use, efficent, and useful to consumers.
+          I am passionate about creating software that is easy to use, efficient, and useful to consumers.
           <br/>I have had extensive experience working with people of all backgrounds through my volunteering, and through that have honed my communication skills as well as learning to recognise and attend to consumer needs in an efficient manner
         </p>
         <div>
