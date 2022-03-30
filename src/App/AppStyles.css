@@ -19,7 +19,6 @@
   padding: 10px;
   background: #7EC8E3;
   color: #050A30;
-  display: flex;
 }
 
 .icon {
@@ -27,12 +26,6 @@
   max-width: 20px;
   margin: 5px;
   margin-bottom: 0px;
-}
-
-#portrait {
-  max-width: 25%;
-  max-height: 25%;
-  border: 2px solid #050A30 ;
 }
 
 .projectTitle{
