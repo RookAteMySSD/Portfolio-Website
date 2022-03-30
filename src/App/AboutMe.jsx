@@ -11,9 +11,10 @@ export const AboutMe = () => {
         I am passionate about creating software that is easy to use, efficient, and useful to consumers.
         <br/>I have had extensive experience working with people of all backgrounds through my volunteering, and through that have honed my communication skills as well as learning to recognise and attend to consumer needs in an efficient manner
       </p>
-      <div>
-        <img src='./IMG/GitHub.png' className='icon' onClick={() => {location.href=`${PersonalData.github}`}}></img>
-        <img src='./IMG/LinkedIn.png' className='icon'
+      <div id='iconBox'>
+        <img src='./IMG/GitHub.png' className='icon' id='GitHub'
+        onClick={() => {location.href=`${PersonalData.github}`}}></img>
+        <img src='./IMG/LinkedIn.png' className='icon' id='Linkedin'
         onClick={() => {location.href=`${PersonalData.linkedin}`}}></img>
       </div>
     </div>

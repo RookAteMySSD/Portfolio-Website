@@ -21,11 +21,24 @@
   color: #050A30;
 }
 
+#iconBox{
+  padding: 0px;
+}
+
 .icon {
   max-height: 20px;
   max-width: 20px;
-  margin: 5px;
-  margin-bottom: 0px;
+  padding: 5px;
+  margin: 0px;
+}
+
+#GitHub:hover{
+  background: rgba(128, 128, 128, .4);
+  border-radius: 50%;
+}
+
+#Linkedin:hover{
+  background: rgba(128, 128, 128, .4);
 }
 
 .projectTitle{
