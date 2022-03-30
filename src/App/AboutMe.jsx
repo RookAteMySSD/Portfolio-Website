@@ -18,7 +18,7 @@ export const AboutMe = () => {
           onClick={() => {location.href=`${PersonalData.linkedin}`}}></img>
         </div>
       </div>
-      <div style={{'float': "right"}}>image here</div>
+      <img src="./IMG/Me.jpg" id="portrait"></img>
     </div>
   )
 }
