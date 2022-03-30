@@ -72,6 +72,15 @@
   background-color: #000C66;
 }
 
+.techHolder{
+  border: 2px solid #050A30 ;
+  margin: 5px;
+  padding: 10px;
+  background: #7EC8E3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .techBox{
   border: 2px solid #000C66;
   border-radius: 30px / 25px;

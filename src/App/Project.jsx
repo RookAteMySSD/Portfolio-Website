@@ -6,7 +6,7 @@ export const Project = ({project}) => {
     <div className='sectionBox'>
     <h4 className='projectTitle'><a href='https://github.com/RookAteMySSD/Hunt-Showdown-Loadout-Manager' target="_blank">{project.name}</a></h4>
     <div className='sectionBox'>{project.description}</div>
-    <div className='sectionBox'>{project.tech.map((tech) => <a className='techBox'>{tech}</a>)}</div>
+    <div className='techHolder'>{project.tech.map((tech) => <div className='techBox'>{tech}</div>)}</div>
     </div>
   )
 }
