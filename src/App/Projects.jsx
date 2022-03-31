@@ -5,7 +5,7 @@ import './AppStyles.css'
 
 export const Projects = () => {
   return (
-    <div className='sectionBox'>
+    <div>
       {ProjectsData.map((project) => <Project project={project}/>)}
     </div>
   )
