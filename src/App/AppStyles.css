@@ -1,4 +1,4 @@
-#background {
+#mainBackground {
   padding: 15%;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -100,4 +100,10 @@
   padding: 2px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+  color: rgb(120, 120, 120);
 }
