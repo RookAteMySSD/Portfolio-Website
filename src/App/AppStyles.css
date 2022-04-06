@@ -103,7 +103,8 @@
 }
 
 #footer{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   color: rgb(120, 120, 120);
 }
