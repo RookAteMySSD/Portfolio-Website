@@ -32,6 +32,11 @@
   margin: 0px;
 }
 
+#Gmail:hover{
+  background: rgba(128, 128, 128, .4);
+  border-radius: 50%;
+}
+
 #GitHub:hover{
   background: rgba(128, 128, 128, .4);
   border-radius: 50%;
