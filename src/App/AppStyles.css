@@ -46,6 +46,22 @@
   background: rgba(128, 128, 128, .4);
 }
 
+#Languages {
+  border: 2px solid #050A30;
+  margin: 5px;
+  background: #7EC8E3;
+  color: #050A30;
+}
+
+.HeaderBox {
+  display: flex;
+}
+
+.Content {
+  width: 32%;
+  text-align: center;
+}
+
 .projectBox{
   margin: 5px;
   margin-top: 3px;
