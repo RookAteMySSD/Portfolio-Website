@@ -13,7 +13,6 @@ export const Languages = () => {
         <h4 className="Content">Front-End Tools</ h4>
         <h4 className="Content">Back-End Tools</ h4>
         </div>
-        {langDisplay}
     </ div>
     )
 };
