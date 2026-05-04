@@ -6,7 +6,7 @@ import {Footer} from './Footer.jsx'
 import './AppStyles.css'
 
 export const App = () => {
-  return (
+  /*return (
     <div>
       <div id='mainBackground'>
         <AboutMe />
@@ -14,6 +14,12 @@ export const App = () => {
         <Projects />
       </div>
       <Footer />
+    </div>
+  )*/
+  return (
+    <div id='mainBackground'>
+      This site is currently being redesigned.
+      Contact me via email or LinkedIn for more information about my work and experience.
     </div>
   )
 }
